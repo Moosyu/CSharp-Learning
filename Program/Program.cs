@@ -30,13 +30,13 @@ public class Sus
         //Legit the most hamfisted solution I have ever used also I have no idea why I to pad right 6 times for one space please explain 
         Console.WriteLine("Hello".PadRight(6) + names[index]);
 
-
-        Console.WriteLine("The application ended at {0:HH:mm:ss}", DateTime.Now);
-
+        //Easiest thing I've ever done
         Random dice = new Random();
         int roll = dice.Next(1, 6);
         Console.WriteLine($"Your dice rolled {roll}");
 
+
+        Console.WriteLine("The application ended at {0:HH:mm:ss}", DateTime.Now);
 
     }
 
