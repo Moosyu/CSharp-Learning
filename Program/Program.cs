@@ -31,8 +31,7 @@ public class Sus
         Console.WriteLine("Hello".PadRight(6) + names[index]);
 
         //Easiest thing I've ever done
-        Random dice = new Random();
-        int roll = dice.Next(1, 6);
+        int roll = rnd.Next(1, 6);
         Console.WriteLine($"Your dice rolled {roll}");
 
 
