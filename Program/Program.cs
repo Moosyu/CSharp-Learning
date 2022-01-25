@@ -37,6 +37,10 @@ public class Sus
         int roll = rnd.Next(1, 6);
         Console.WriteLine($"Your dice rolled {roll}");
 
+        //Easiest thing I've ever done
+        int roll = rnd.Next(1, 6);
+        Console.WriteLine($"Your dice rolled {roll}");
+
 
         Console.WriteLine("The application ended at {0:HH:mm:ss}", DateTime.Now);
 
