@@ -11,7 +11,7 @@ public class Sus
     static void Main()
     {
 
-        
+
         Random rnd = new Random();
 
 
@@ -22,13 +22,20 @@ public class Sus
 
         int index = rnd.Next(names.Length);
 
+        int funny = 69;
+
         int num = rnd.Next();
 
         //Just a random number
         Console.WriteLine(num);
 
-        //Legit the most hamfisted solution I have ever used also I have no idea why I to pad right 6 times for one space please explain 
-        Console.WriteLine("Hello".PadRight(6) + names[index]);
+        Console.WriteLine("Funny number is " + funny);
+
+        Console.WriteLine("Hello " + names[index]);
+
+        //Easiest thing I've ever done
+        int roll = rnd.Next(1, 6);
+        Console.WriteLine($"Your dice rolled {roll}");
 
 
         Console.WriteLine("The application ended at {0:HH:mm:ss}", DateTime.Now);
