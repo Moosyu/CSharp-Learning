@@ -25,11 +25,6 @@ public class Sus
 
         int index = rnd.Next(names.Length);
 
-        int num = rnd.Next();
-
-        //Just a random number
-        Console.WriteLine($"\nA random number is {num}");
-
         //im suffering from some sort of disability 
         Console.WriteLine("\nHello " + names[index]);
 
@@ -40,15 +35,17 @@ public class Sus
         try
         {
 
-            Console.WriteLine("Enter a number:");
+            Console.WriteLine("\nEnter a number:");
             int number = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your number was: " + $" {number}");
+            Console.WriteLine("\nYour number was: " + $" {number}");
         }
 
         catch (Exception)
         {
             Console.WriteLine("Please input a number!");
         }
+        Console.WriteLine("\nPress any button to close the program!");
+        Console.ReadLine();
     }
 
 }
