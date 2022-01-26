@@ -14,9 +14,12 @@ public class Sus
 
         Random rnd = new Random();
 
+        DateTime date1 = DateTime.Now;
+
+        int roll = rnd.Next(1, 6);
 
         string[] names = {
-            "joe", "chris", "george", "phil", "friend", "sus", "test"
+            "Joe", "Chris", "George", "Phil", "Friend", "Sus", "Boy", "Walt"
         };
 
 
@@ -25,18 +28,14 @@ public class Sus
         int num = rnd.Next();
 
         //Just a random number
-        Console.WriteLine(num);
+        Console.WriteLine($"\nA random number is{num}");
 
         //im suffering from some sort of disability 
-        Console.WriteLine("Hello " + names[index]);
+        Console.WriteLine("\nHello " + names[index]);
 
-        //Easiest thing I've ever done
-        int roll = rnd.Next(1, 6);
-        Console.WriteLine($"Your dice rolled {roll}");
+        Console.WriteLine($"\nYour dice rolled {roll}");
 
-
-        Console.WriteLine("The application ended at {0:HH:mm:ss}", DateTime.Now);
-
+        Console.WriteLine("\nToday is {0:d} at {0:T}.", date1);
     }
 
 }
