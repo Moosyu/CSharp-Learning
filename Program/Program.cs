@@ -28,7 +28,7 @@ public class Sus
         int num = rnd.Next();
 
         //Just a random number
-        Console.WriteLine($"\nA random number is{num}");
+        Console.WriteLine($"\nA random number is {num}");
 
         //im suffering from some sort of disability 
         Console.WriteLine("\nHello " + names[index]);
@@ -36,6 +36,19 @@ public class Sus
         Console.WriteLine($"\nYour dice rolled {roll}");
 
         Console.WriteLine("\nToday is {0:d} at {0:T}.", date1);
+
+        try
+        {
+
+            Console.WriteLine("Enter a number:");
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your number was: " + $" {number}");
+        }
+
+        catch (Exception)
+        {
+            Console.WriteLine("Please input a number!");
+        }
     }
 
 }
