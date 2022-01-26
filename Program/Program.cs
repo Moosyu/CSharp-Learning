@@ -22,20 +22,13 @@ public class Sus
 
         int index = rnd.Next(names.Length);
 
-        int funny = 69;
-
         int num = rnd.Next();
 
         //Just a random number
         Console.WriteLine(num);
 
-        Console.WriteLine("Funny number is " + funny);
-
+        //im suffering from some sort of disability 
         Console.WriteLine("Hello " + names[index]);
-
-        //Easiest thing I've ever done
-        int roll = rnd.Next(1, 6);
-        Console.WriteLine($"Your dice rolled {roll}");
 
         //Easiest thing I've ever done
         int roll = rnd.Next(1, 6);
