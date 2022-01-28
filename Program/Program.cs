@@ -11,6 +11,7 @@ public class Sus
     static void Main()
     {
 
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
 
         Random rnd = new Random();
 
@@ -36,7 +37,9 @@ public class Sus
         {
 
             Console.WriteLine("\nEnter a number:");
+
             int number = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("\nYour number was: " + $" {number}");
         }
 
@@ -45,6 +48,7 @@ public class Sus
             Console.WriteLine("Please input a number!");
         }
         Console.WriteLine("\nPress any button to close the program!");
+
         Console.ReadLine();
     }
 
