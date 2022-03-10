@@ -11,7 +11,6 @@ namespace soulja_boy
         static void Main(string[] args)
         {
             {
-                SouljaClass souljaMain = new SouljaClass();
 
                 SouljaClass.SouljaBoy();
 
