@@ -13,7 +13,7 @@ namespace soulja_boy
             {
                 SouljaClass souljaMain = new SouljaClass();
 
-                souljaMain.SouljaBoy();
+                SouljaClass.SouljaBoy();
 
             }
         }

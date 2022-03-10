@@ -9,7 +9,7 @@ namespace soulja_boy
     class SouljaClass
     {
 
-        internal void SouljaBoy()
+        internal static void SouljaBoy()
         {
 
             double i = 1;
