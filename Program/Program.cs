@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 double i = 1;
 
+Console.WriteLine("Enter a number of soulja boys!");
+
 try
 {
     int soulja = Convert.ToInt32(Console.ReadLine());
@@ -22,3 +24,5 @@ catch (Exception)
 {
     Console.WriteLine("Please input a number!");
 }
+
+Console.ReadKey();
