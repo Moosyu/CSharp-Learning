@@ -15,7 +15,7 @@ namespace soulja_boy
 
                 souljaMain.SouljaBoy();
 
-            };
+            }
         }
     }
 }
